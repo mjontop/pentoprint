@@ -6,15 +6,20 @@ li {
 li:last-child() {
     margin-left: 0px;
 }
-.toshow{
-    height:300px;
-}
-.head{
-    color:red;
+
+.head {
+    color: red;
     font-weight: bold;
 }
+
 nav {
     background-color: darkblue;
-    border-radius:10px; 
+    border-radius: 10px;
     font-family: 'Fjalla One', sans-serif;
+}
+
+.banner {
+    margin: 5px 0px;
+    height: 300px;
+    border: 0.5px solid darkblue;
 }
