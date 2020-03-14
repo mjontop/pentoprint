@@ -23,3 +23,13 @@ nav {
     height: 300px;
     border: 0.5px solid darkblue;
 }
+
+.banner > div > div{
+    background:red;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 999px;
+    height: 15px;
+    width: 15px;
+}
+
