@@ -2,9 +2,9 @@ var name = '/src/img/book'
 i = 1
 
 function slidebanner() {
-    $("#banner").fadeToggle(300, function() {
+    $("#banner").fadeToggle(300, function () {
         $(".banner > div > div").css("background-color", "red")
-        $(".imgposition"+i).css("background-color", "black")
+        $(".imgposition" + i).css("background-color", "black")
         i = i + 1
         if (i > 4) {
             i = 1
@@ -16,4 +16,4 @@ function slidebanner() {
 
 }
 
-setInterval(slidebanner, 2000)
+setInterval(slidebanner, 3000)

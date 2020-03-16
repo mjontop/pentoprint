@@ -32,4 +32,6 @@ nav {
     height: 15px;
     width: 15px;
 }
-
+p{
+    text-align: justify;
+}
