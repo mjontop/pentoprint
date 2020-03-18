@@ -35,3 +35,14 @@ nav {
 p{
     text-align: justify;
 }
+
+@media(min-width:768px){
+   .long-drop {
+    font-size: 15px;
+    width: 720px;
+    display: flex;
+    flex-wrap: wrap;
+    
+} 
+
+}
