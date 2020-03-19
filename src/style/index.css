@@ -37,20 +37,38 @@ p {
     text-align: justify;
 }
 
-.dropdown-item{
-    padding:5px 10px 5px 10px;
-}
+
 .dropdown-item:hover{
     background-color: dodgerblue;
     color: #fff;
     border-radius: 5px;
 }
 
-@media(min-width:768px) {
+
+
+@media(min-width:768px) {   
     .long-drop {
         font-size: 15px;
         width: 580px;
         display: flex;
         flex-wrap: wrap;
     }
+    .dropdown-item{
+        padding:5px 10px;
+    }
+    .nav-item{
+        margin: 2px 6px;
+
+    }
 }
+
+@media(max-width:1080px) {
+
+    .nav-link{
+       font-size: 15px;
+    }
+    #nav{
+        padding: 5px 10px;
+    }
+}
+
