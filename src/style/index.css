@@ -24,25 +24,33 @@ nav {
     border: 0.5px solid blue;
 }
 
-.banner > div > div{
-    background:red;
+.banner>div>div {
+    background: red;
     margin: 10px;
     border: 2px solid black;
     border-radius: 999px;
     height: 15px;
     width: 15px;
 }
-p{
+
+p {
     text-align: justify;
 }
 
-@media(min-width:768px){
-   .long-drop {
-    font-size: 15px;
-    width: 720px;
-    display: flex;
-    flex-wrap: wrap;
-    
-} 
+.dropdown-item{
+    padding:5px 10px 5px 10px;
+}
+.dropdown-item:hover{
+    background-color: dodgerblue;
+    color: #fff;
+    border-radius: 5px;
+}
 
+@media(min-width:768px) {
+    .long-drop {
+        font-size: 15px;
+        width: 580px;
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
