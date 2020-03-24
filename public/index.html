@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
@@ -15,105 +16,109 @@
 </head>
 
 <body>
-    <div class="container">
-        <header>
-            <div class="col-12">
 
-                <img src="/src/img/logo.jpg" class="img-fluid" style="height:100px" />
+    <header>
+        <div class="container">
 
-            </div>
-        </header>
+            <img src="/src/img/logo.jpg" class="img-fluid" style="height:100px" />
+
+        </div>
+
         <!-- NavBar -->
-        <nav id="nav" class="navbar navbar-dark navbar-expand-md bg-primary sticky-top">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <nav id="nav" class="navbar navbar-dark navbar-expand-md sticky-top">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-            <div class="collapse navbar-collapse navbar-fixed-top " id="Navbar">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item ">
-                        <a href="./index.html" class="nav-link ">
-                            Home
-                        </a>
-                    </li>
+                <div class="collapse navbar-collapse navbar-fixed-top " id="Navbar">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item ">
+                            <a href="./index.html" class="nav-link ">
+                                Home
+                            </a>
+                        </li>
 
-                    <li class="nav-item dropdown" style="margin:0px 0px 0px 10px;">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Subjects
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <div class="long-drop">
-                                <div>
-                                    <a class="dropdown-item" href="#">Astronomy</a>
-                                    <a class="dropdown-item" href="#">Behavioral Sciences</a>
-                                    <a class="dropdown-item" href="#">Biomedical Sciences</a>
-                                    <a class="dropdown-item" href="#">Businesses & Management</a>
-                                    <a class="dropdown-item" href="#">Chemistry</a>
-                                    <a class="dropdown-item" href="#">Climate</a>
-                                    <a class="dropdown-item" href="#">Computer Science</a>
-                                </div>
-                                <div>
-                                    <a class="dropdown-item" href="#">Earth Sciences</a>
-                                    <a class="dropdown-item" href="#">Economics</a>
-                                    <a class="dropdown-item" href="#">Education & Languages</a>
-                                    <a class="dropdown-item" href="#">Energy</a>
-                                    <a class="dropdown-item" href="#">Engineering</a>
-                                    <a class="dropdown-item" href="#">Enviormental Sciences</a>
-                                    <a class="dropdown-item" href="#">Food Science & Nutriton</a>
-                                </div>
-                                <div>
-                                    <a class="dropdown-item" href="#">Geography</a>
-                                    <a class="dropdown-item" href="#">Law</a>
-                                    <a class="dropdown-item" href="#">Life Sciences</a>
-                                    <a class="dropdown-item" href="#">Materials</a>
-                                    <a class="dropdown-item" href="#">Mathamatics</a>
-                                    <a class="dropdown-item" href="#">Medicine</a>
-                                    <a class="dropdown-item" href="#">Philosophy</a>
-                                </div>
-                                <div>
-                                    <a class="dropdown-item" href="#">Physics</a>
-                                    <a class="dropdown-item" href="#">Popular Sciences</a>
-                                    <a class="dropdown-item" href="#">Public Health</a>
-                                    <a class="dropdown-item" href="#">Social Sciences</a>
-                                    <a class="dropdown-item" href="#">Statics</a>
-                                    <a class="dropdown-item" href="#">Water</a>
-                                </div>
+                        <li class="nav-item dropdown" style="margin:0px 0px 0px 10px;">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Subjects
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <div class="long-drop">
+                                    <div>
+                                        <a class="dropdown-item" href="#">Astronomy</a>
+                                        <a class="dropdown-item" href="#">Behavioral Sciences</a>
+                                        <a class="dropdown-item" href="#">Biomedical Sciences</a>
+                                        <a class="dropdown-item" href="#">Businesses & Management</a>
+                                        <a class="dropdown-item" href="#">Chemistry</a>
+                                        <a class="dropdown-item" href="#">Climate</a>
+                                        <a class="dropdown-item" href="#">Computer Science</a>
+                                    </div>
+                                    <div>
+                                        <a class="dropdown-item" href="#">Earth Sciences</a>
+                                        <a class="dropdown-item" href="#">Economics</a>
+                                        <a class="dropdown-item" href="#">Education & Languages</a>
+                                        <a class="dropdown-item" href="#">Energy</a>
+                                        <a class="dropdown-item" href="#">Engineering</a>
+                                        <a class="dropdown-item" href="#">Enviormental Sciences</a>
+                                        <a class="dropdown-item" href="#">Food Science & Nutriton</a>
+                                    </div>
+                                    <div>
+                                        <a class="dropdown-item" href="#">Geography</a>
+                                        <a class="dropdown-item" href="#">Law</a>
+                                        <a class="dropdown-item" href="#">Life Sciences</a>
+                                        <a class="dropdown-item" href="#">Materials</a>
+                                        <a class="dropdown-item" href="#">Mathamatics</a>
+                                        <a class="dropdown-item" href="#">Medicine</a>
+                                        <a class="dropdown-item" href="#">Philosophy</a>
+                                    </div>
+                                    <div>
+                                        <a class="dropdown-item" href="#">Physics</a>
+                                        <a class="dropdown-item" href="#">Popular Sciences</a>
+                                        <a class="dropdown-item" href="#">Public Health</a>
+                                        <a class="dropdown-item" href="#">Social Sciences</a>
+                                        <a class="dropdown-item" href="#">Statics</a>
+                                        <a class="dropdown-item" href="#">Water</a>
+                                    </div>
 
+                                </div>
                             </div>
-                        </div>
-                    </li>
-                    
-                    <li class="nav-item ">
-                        <a href="./index.html" class="nav-link ">
-                            Publish with Us
-                        </a>
-                    </li>
-                    <li class="nav-item ">
-                        <a href="./index.html" class="nav-link ">
-                            Seller's Login
-                        </a>
-                    </li>
+                        </li>
 
-                    <li class="nav-item ">
-                        <a href="./index.html" class="nav-link ">
-                            Events
-                        </a>
-                    </li>
-                    <li class="nav-item ">
-                        <a href="./index.html" class="nav-link ">
-                            Carrier
-                        </a>
-                    </li>
-                    <li class="nav-item ">
-                        <a href="./index.html" class="nav-link ">
-                            Contact Us
-                        </a>
-                    </li>
-                </ul>
+                        <li class="nav-item ">
+                            <a href="./index.html" class="nav-link ">
+                                Publish with Us
+                            </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a href="./index.html" class="nav-link ">
+                                Seller's Login
+                            </a>
+                        </li>
+
+                        <li class="nav-item ">
+                            <a href="./index.html" class="nav-link ">
+                                Events
+                            </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a href="./index.html" class="nav-link ">
+                                Carrier
+                            </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a href="./index.html" class="nav-link ">
+                                Contact Us
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
-        <!-- NavBar -->
+    </header>
+    <!-- NavBar -->
+    <main class="container">
         <div class="banner container">
             <img id="banner" src="../src/img/book1.png" class="img-fluid">
             <div class="row">
@@ -155,6 +160,38 @@
 
 
         </div>
+    </main>
+
+    <footer id="full-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 ">
+                    <b>Usefull Links</b> <br>
+
+                    <a href="#">Digital Bookd</a>
+                    <a href="#">School Books</a>
+                    <a href="#">Higher Education</a>
+                    <a href="#">Competetive Books</a>
+
+                </div>
+                <div class="col-4">
+                    <b>Customer Account</b> <br>
+                    <a href="#">Bookseller Login</a>
+                    <a href="#">Track Your Order</a>
+                    <a href="#">Register For Special Offer</a>
+                </div>
+                <div class="col-4">
+                    <br>
+                    <b>Contact Us</b> <br>
+                    <a href="#">Our Office</a>
+                    <a href="#">Publish with Us </a>
+                    <a href="#">Request a Specimen</a>
+                    <a href="#">Enquiry/Feedback</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
 </body>
 
 </html>
