@@ -1,84 +1,82 @@
-@import url('https://fonts.googleapis.com/css?family=Fjalla+One&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Fjalla+One&display=swap");
 li {
-    margin-left: 30px;
+	margin-left: 30px;
 }
 
 li:last-child() {
-    margin-left: 0px;
+	margin-left: 0px;
 }
 
 .head {
-    color: red;
-    font-weight: bold;
+	color: red;
+	font-weight: bold;
 }
 
 nav {
-    background-color: darkblue;
-    
-    font-family: 'Fjalla One', sans-serif;
+	background-color: darkblue;
+
+	font-family: "Fjalla One", sans-serif;
 }
 
 .banner {
-    margin: 5px 0px;
-    height: 300px;
-    border: 0.5px solid blue;
+	margin: 5px 0px;
+	height: fit-content;
+	border: 0.5px solid blue;
 }
 
-.banner>div>div {
-    background: red;
-    margin: 10px;
-    border: 2px solid black;
-    border-radius: 999px;
-    height: 15px;
-    width: 15px;
+.banner > div > div {
+	background: red;
+	margin: 10px;
+	border: 2px solid black;
+	border-radius: 999px;
+	height: 15px;
+	width: 15px;
 }
 
 p {
-    text-align: justify;
+	text-align: justify;
 }
 
-
-.dropdown-item:hover{
-    background-color: dodgerblue;
-    color: #fff;
-    border-radius: 5px;
+.dropdown-item:hover {
+	background-color: dodgerblue;
+	color: #fff;
+	border-radius: 5px;
 }
 
-#full-footer{
-    background-color: #2c3e50;
-  
+#full-footer {
+	background-color: #2c3e50;
 }
 
-#full-footer>div>div>div>a{
-    display: block;
-    padding: 5px;
-    color: whitesmoke;
+#full-footer > div > div > div > a {
+	display: block;
+	padding: 5px;
+	color: whitesmoke;
 }
 
-
-@media(min-width:768px) {   
-    .long-drop {
-        font-size: 15px;
-        width: 580px;
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .dropdown-item{
-        padding:5px 10px;
-    }
-    .nav-item{
-        margin: 2px 6px;
-
-    }
+.bg-check{
+	background: darkblue;
 }
 
-@media(max-width:1080px) {
-
-    .nav-link{
-       font-size: 15px;
-    }
-    #nav{
-        padding: 5px 10px;
-    }
+@media (min-width: 768px) {
+	.long-drop {
+		font-size: 15px;
+		width: 580px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.dropdown-item {
+		padding: 5px 10px;
+	}
+	.nav-item {
+		margin: 2px 6px;
+	}
 }
 
+@media (max-width: 1080px) {
+	.nav-link {
+		font-size: 15px;
+	}
+	#nav {
+		padding: 5px 10px;
+	}
+}
