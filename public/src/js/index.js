@@ -6,7 +6,7 @@ function slidebanner() {
 		$('.banner > div > div').css('background-color', 'red');
 		$('.imgposition' + i).css('background-color', 'black');
 		i = i + 1;
-		if (i > 3) {
+		if (i > 5) {
 			i = 1;
 		}
 		var newname = name + i + '.jpg';
