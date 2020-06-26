@@ -1,4 +1,4 @@
-var name = '/src/img/book';
+var name = './src/img/book';
 i = 1;
 
 function slidebanner() {
