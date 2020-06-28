@@ -16,118 +16,26 @@
 </head>
 
 <body>
+    <div id="nav-placeholder">
 
-    <header>
-        <div class="container">
+    </div>
 
-            <img src="./src/img/logo.jpg" class="img-fluid" style="height:100px" />
+    <script>
+        $(function () {
+            $("#nav-placeholder").load("./assets/navbar.html");
+        });
+    </script>
 
-        </div>
-
-        <!-- NavBar -->
-        <nav id="nav" class="navbar navbar-dark navbar-expand-md sticky-top bg-check">
-            <div class="container">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse navbar-fixed-top " id="Navbar">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item ">
-                            <a href="./index.html" class="nav-link ">
-                                Home
-                            </a>
-                        </li>
-
-                        <li class="nav-item dropdown" style="margin:0px 0px 0px 10px;">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Subjects
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <div class="long-drop">
-                                    <div>
-                                        <a class="dropdown-item" href="#">Astronomy</a>
-                                        <a class="dropdown-item" href="#">Behavioral Sciences</a>
-                                        <a class="dropdown-item" href="#">Biomedical Sciences</a>
-                                        <a class="dropdown-item" href="#">Businesses & Management</a>
-                                        <a class="dropdown-item" href="#">Chemistry</a>
-                                        <a class="dropdown-item" href="#">Climate</a>
-                                        <a class="dropdown-item" href="#">Computer Science</a>
-                                    </div>
-                                    <div>
-                                        <a class="dropdown-item" href="#">Earth Sciences</a>
-                                        <a class="dropdown-item" href="#">Economics</a>
-                                        <a class="dropdown-item" href="#">Education & Languages</a>
-                                        <a class="dropdown-item" href="#">Energy</a>
-                                        <a class="dropdown-item" href="#">Engineering</a>
-                                        <a class="dropdown-item" href="#">Enviormental Sciences</a>
-                                        <a class="dropdown-item" href="#">Food Science & Nutriton</a>
-                                    </div>
-                                    <div>
-                                        <a class="dropdown-item" href="#">Geography</a>
-                                        <a class="dropdown-item" href="#">Law</a>
-                                        <a class="dropdown-item" href="#">Life Sciences</a>
-                                        <a class="dropdown-item" href="#">Materials</a>
-                                        <a class="dropdown-item" href="#">Mathamatics</a>
-                                        <a class="dropdown-item" href="#">Medicine</a>
-                                        <a class="dropdown-item" href="#">Philosophy</a>
-                                    </div>
-                                    <div>
-                                        <a class="dropdown-item" href="#">Physics</a>
-                                        <a class="dropdown-item" href="#">Popular Sciences</a>
-                                        <a class="dropdown-item" href="#">Public Health</a>
-                                        <a class="dropdown-item" href="#">Social Sciences</a>
-                                        <a class="dropdown-item" href="#">Statics</a>
-                                        <a class="dropdown-item" href="#">Water</a>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </li>
-
-                        <li class="nav-item ">
-                            <a href="./index.html" class="nav-link ">
-                                Publish with Us
-                            </a>
-                        </li>
-                        <li class="nav-item ">
-                            <a href="./index.html" class="nav-link ">
-                                Seller's Login
-                            </a>
-                        </li>
-
-                        <li class="nav-item ">
-                            <a href="./index.html" class="nav-link ">
-                                Events
-                            </a>
-                        </li>
-                        <li class="nav-item ">
-                            <a href="./index.html" class="nav-link ">
-                                Career
-                            </a>
-                        </li>
-                        <li class="nav-item ">
-                            <a href="./contactus.html" class="nav-link ">
-                                Contact Us
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <!-- NavBar -->
     <main class="container">
         <h2>Our Publications</h2>
         <div class="banner container">
-            <img id="banner" src="./src/img/book1.jpg" class="img-fluid">
+            <img id="banner" src="./src/img/book1.jpg" style="height:500px" class="img-fluid">
         </div>
 
         </div>
         <div class="aboutus row">
             <div class="col-md-8 col-12">
-                <p class="head">Welcome to Pen to Print Publishing</p>
+                <p class="head">Welcome to Pen to Print Publishing LLP (Reg. No. AAS-1743)</p>
 
                 <!-- About section  -->
                 <p>
@@ -157,36 +65,12 @@
         </div>
     </main>
 
-    <footer id="full-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-4 ">
-                    <br>
-                    <b>Usefull Links</b> <br>
-                    <a href="#">Digital Bookd</a>
-                    <a href="#">School Books</a>
-                    <a href="#">Higher Education</a>
-                    <a href="#">Competetive Books</a>
-
-                </div>
-                <div class="col-4">
-                    <br>
-                    <b>Customer Account</b> <br>
-                    <a href="#">Bookseller Login</a>
-                    <a href="#">Track Your Order</a>
-                    <a href="#">Register For Special Offer</a>
-                </div>
-                <div class="col-4">
-                    <br>
-                    <b>Contact Us</b> <br>
-                    <a href="#">Our Office</a>
-                    <a href="#">Publish with Us </a>
-                    <a href="#">Request a Specimen</a>
-                    <a href="#">Enquiry/Feedback</a>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <div id="footer"></div>
+    <script>
+        $(function () {
+            $("#footer").load("./assets/footer.html");
+        });
+    </script>
 
 </body>
 
