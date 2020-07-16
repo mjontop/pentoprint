@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Fjalla+One&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One&display=swap');
 li {
 	margin-left: 30px;
 }
@@ -13,8 +13,7 @@ li:last-child() {
 }
 
 nav {
-
-	font-family: "Fjalla One", sans-serif;
+	font-family: 'Fjalla One', sans-serif;
 }
 
 .banner {
@@ -52,18 +51,17 @@ p {
 	color: whitesmoke;
 }
 
-.bg-check{
+.bg-check {
 	background: darkblue;
 }
 
-.text-nm{
-	color:black;
+.text-nm {
+	color: black;
 }
 
-.img-md{
+.img-md {
 	height: 500px;
 }
-
 
 @media (min-width: 768px) {
 	.long-drop {
