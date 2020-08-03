@@ -60,7 +60,8 @@ p {
 }
 
 .img-md {
-	height: 300px;
+	height: 300px !important;
+	width: 400px !important;
 }
 
 @media (min-width: 768px) {
